@@ -23,9 +23,7 @@
 # end
 
 def deluxe_curfew_checker(time)
-curfew = 11
 whats_left = 11 - time
-if time<=11 
   "You have #{whats_left} hours until curfew!"
 end
 end
