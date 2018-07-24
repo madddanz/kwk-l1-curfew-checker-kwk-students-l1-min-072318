@@ -9,6 +9,8 @@
 def curfew_checker(time)
   if time==11
     "You can still get home - Just apparate!"
+  elsif time<= 11
+  " You've got time!"
   elsif time>11
     "Sorry - you're late!!"
 end
