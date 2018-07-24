@@ -28,7 +28,7 @@ whats_left = 11 - time
 end
 end
 
-deluxe_curfew_checker(9)
+puts deluxe_curfew_checker(9)
 
 # def platinum_curfew_checker(current_time, curfew_time)
 #   # code goes here
