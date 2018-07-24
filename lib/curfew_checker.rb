@@ -23,8 +23,14 @@
 # end
 
 def deluxe_curfew_checker(time)
-  # code goes here
+curfew = 11
+whats_left = 11 - time
+if time<=11 
+  "You have #{whats_left} hours until curfew!"
 end
+end
+
+deluxe_curfew_checker(9)
 
 # def platinum_curfew_checker(current_time, curfew_time)
 #   # code goes here
