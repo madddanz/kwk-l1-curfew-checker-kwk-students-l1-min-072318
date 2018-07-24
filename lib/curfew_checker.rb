@@ -14,7 +14,7 @@ def curfew_checker(time)
 end
 end
 
-puts curfew_checker(12)
+puts curfew_checker(11)
 
 # def complex_curfew_checker(time)
 #   # code goes here
